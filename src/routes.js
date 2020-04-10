@@ -14,10 +14,7 @@ const routes = [
   {
     path: '/todo',
     name: 'todo',
-    component: App,
-    meta: {
-      requiresAuth: true,
-    }
+    component: App
   },
   {
     path: '/about',

@@ -17,12 +17,21 @@ export default {
 </script>
 
 <style>
-
+* {
+  box-sizing: border-box;
+}
 .container {
   max-width: 600px;
   margin: 0 auto;
 }
-
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #2c3e50;
+  font-size: 24px;
+}
 .logo {
   display: block;
   margin: 20px auto;
